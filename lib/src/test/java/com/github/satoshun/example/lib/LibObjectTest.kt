@@ -22,7 +22,6 @@ class LibObjectTest {
   @Test
   fun first() {
     val launch = paparazzi.inflate<LinearLayout>(R.layout.lib_item)
-//    paparazzi.snapshot(launch, theme = "android:Theme.Material.Light")
-    paparazzi.snapshot(view = launch, name = "first")
+    paparazzi.snapshot(view = launch)
   }
 }

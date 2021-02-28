@@ -8,5 +8,17 @@
     android:id="@+id/title"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="TEST" />
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:text="Hello"
+    android:textSize="24sp" />
+
+  <TextView
+    android:id="@+id/subtitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:text="World"
+    android:textSize="18sp" />
 </LinearLayout>
