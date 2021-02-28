@@ -45,8 +45,6 @@ dependencies {
   implementation CONSTRAINTLAYOUT
   implementation KTX
 
-  implementation MATERIAL
-
   implementation ACTIVITYX
   implementation FRAGMENTX
 

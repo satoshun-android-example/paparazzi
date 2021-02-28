@@ -4,7 +4,7 @@ const val COMPILE_SDK = 30
 const val MIN_SDK = 21
 const val TARGET_SDK = 30
 
-private const val VKOTLIN = "1.4.30"
+private const val VKOTLIN = "1.4.31"
 private const val VNAVIGATION = "2.3.1"
 
 const val ANDROID_PLUGIN = "com.android.tools.build:gradle:4.1.2"
@@ -76,7 +76,7 @@ const val DAGGER_HILT_PLUGIN = "com.google.dagger:hilt-android-gradle-plugin:$VD
 const val GLIDE = "com.github.bumptech.glide:glide:4.9.0"
 const val COIL = "io.coil-kt:coil:0.9.5"
 
-const val JUNIT = "junit:junit:4.13-beta-1"
+const val JUNIT = "androidx.test.ext:junit-ktx:1.1.2"
 const val TRUTH = "com.google.truth:truth:0.42"
 const val MOCKITO_KOTLIN = "com.nhaarman:mockito-kotlin-kt1.1:1.5.0"
 const val TEST_RUNNER = "androidx.test:runner:1.1.1"

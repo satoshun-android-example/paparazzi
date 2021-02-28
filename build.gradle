@@ -12,6 +12,7 @@ buildscript {
     classpath VERSIONS_PLUGIN
     classpath SAFEARGS_PLUGIN
     classpath DAGGER_HILT_PLUGIN
+    classpath "app.cash.paparazzi:paparazzi-gradle-plugin:0.7.0"
   }
 }
 

@@ -1,0 +1,30 @@
+import static dependencies.DependenciesKt.*
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'app.cash.paparazzi'
+
+android {
+  compileSdkVersion COMPILE_SDK
+
+  defaultConfig {
+    minSdkVersion MIN_SDK
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+}
+
+dependencies {
+  implementation KOTLIN
+
+  implementation MATERIAL
+  implementation APPCOMPAT
+  implementation CONSTRAINTLAYOUT
+  implementation KTX
+
+  testImplementation JUNIT
+  testImplementation TRUTH
+  testImplementation TEST_RUNNER
+  testImplementation TEST_RULE
+  testImplementation 'org.robolectric:robolectric:4.5.1'
+}
