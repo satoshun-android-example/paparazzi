@@ -1,8 +1,8 @@
 package dependencies
 
-const val COMPILE_SDK = 30
+const val COMPILE_SDK = 29
 const val MIN_SDK = 21
-const val TARGET_SDK = 30
+const val TARGET_SDK = 29
 
 private const val VKOTLIN = "1.4.31"
 private const val VNAVIGATION = "2.3.1"
